@@ -1,6 +1,6 @@
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _templateObject = _taggedTemplateLiteralLoose(['\n  min-height: 1000em;\n  flex: 1 0 auto;\n  position: relative;\n  overflow: hidden;\n  background-color: #282828;\n\n  & * {\n    box-sizing: border-box;\n  }\n  & ul,\n  & ol {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n'], ['\n  min-height: 1000nem;\n  flex: 1 0 auto;\n  position: relative;\n  overflow: hidden;\n  background-color: #282828;\n\n  & * {\n    box-sizing: border-box;\n  }\n  & ul,\n  & ol {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n']),
+var _templateObject = _taggedTemplateLiteralLoose(['\n  min-height: 10em;\n  flex: 1 0 auto;\n  position: relative;\n  overflow: hidden;\n  background-color: #282828;\n\n  & * {\n    box-sizing: border-box;\n  }\n  & ul,\n  & ol {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n'], ['\n  min-height: 10em;\n  flex: 1 0 auto;\n  position: relative;\n  overflow: hidden;\n  background-color: #282828;\n\n  & * {\n    box-sizing: border-box;\n  }\n  & ul,\n  & ol {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n  }\n']),
     _templateObject2 = _taggedTemplateLiteralLoose(['\n  position: relative;\n  transform-origin: 0 0;\n  background-color: #eee;\n  overflow: hidden;\n'], ['\n  position: relative;\n  transform-origin: 0 0;\n  background-color: #eee;\n  overflow: hidden;\n']),
     _templateObject3 = _taggedTemplateLiteralLoose(['\n  position: absolute;\n  top: 0;\n  left: 0;\n'], ['\n  position: absolute;\n  top: 0;\n  left: 0;\n']);
 
@@ -39,7 +39,7 @@ var CanvasArtboard = style.div.attrs({
     var defaultStyles = {
       transform: 'translate(' + props.artboard.x + 'px, ' + props.artboard.y + 'px) scale(' + props.zoomLevel + ')',
       width: props.artboard.width + 'px',
-      height: props.artboard.height*10 + 'px'
+      height: props.artboard.height + 'px'
     };
     var gridStyle = {
       backgroundImage: 'linear-gradient(0deg, transparent 0%, transparent ' + restPercentage + '%, rgba(0, 0, 0, .2) 100%),\nlinear-gradient(90deg, transparent 0%, transparent ' + restPercentage + '%, rgba(0, 0, 0, .2) 100%)',
