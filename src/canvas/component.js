@@ -27,7 +27,7 @@ import type { HistoryAction } from '../history/reducer';
  * ==================================== */
 
 const CanvasViewport = style.div`
-  min-height: 10em;
+  min-height: 20em;
   flex: 1 0 auto;
   position: relative;
   overflow: hidden;
